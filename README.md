@@ -10,7 +10,6 @@ Este proyecto tiene como objetivo demostrar gráficamente cómo estas estrategia
 ---
 
 ## 📸 Visualización
-> ![](assets/prueba1.png)
 
 > ![](assets/prueba1_2.png)
 
