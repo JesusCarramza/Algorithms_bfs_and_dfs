@@ -31,3 +31,28 @@ def draw_grid(win):
             # Dibujar el borde negro para que se vea la cuadrícula
             pygame.draw.rect(win, BLACK, (x, y, TILE_SIZE, TILE_SIZE), 1)
 
+def main():
+    pygame.init()
+    # Crear la ventana
+    win = pygame.display.set_mode((WIDTH, HEIGHT))
+    pygame.display.set_caption("Visualizador BFS & DFS")
+    clock = pygame.time.Clock()
+
+    running = True
+    while running:
+        clock.tick(FPS) # Controlar la velocidad del bucle
+        
+        # Manejo de eventos (Cerrar la ventana)
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
+
+        # Dibujar todo
+        draw_grid(win)
+        pygame.display.flip() # Actualizar la pantalla
+
+    pygame.quit()
+    sys.exit()
+
+if __name__ == "__main__":
+    main()
