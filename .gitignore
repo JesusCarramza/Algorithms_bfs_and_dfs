@@ -1,0 +1,43 @@
+# --- Bytecode y Archivos Compilados ---
+# Archivos generados automáticamente por Python al ejecutar código
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos Virtuales ---
+# Carpetas donde se instalan las librerías (nunca se deben subir)
+venv/
+env/
+.venv/
+.env/
+
+# --- Variables de Entorno y Secretos ---
+# ¡CRÍTICO! Nunca subas tus claves API o contraseñas
+.env
+.env.local
+
+# --- Distribución y Empaquetado ---
+# Carpetas generadas si creas un paquete instalable
+dist/
+build/
+*.egg-info/
+
+# --- Pruebas y Cobertura ---
+# Reportes de tests (pytest, coverage)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- IDEs y Editores de Código ---
+# Configuraciones locales de tu editor (VS Code, PyCharm, etc.)
+.idea/
+.vscode/
+*.swp
+
+# --- Bases de Datos Locales ---
+# Si usas SQLite, ignorar la DB local es común
+*.sqlite3
+
+# --- Logs y Archivos del Sistema ---
+*.log
+.DS_Store
